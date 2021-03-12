@@ -1,0 +1,12 @@
+server:
+  port: 6000
+spring:
+  application:
+    name: dubbo-demo-provider
+
+dubbo:
+  protocol:
+    name: dubbo
+    port: 20880
+  scan:
+    base-pakages: org.chaos.dubbo.demo.provider

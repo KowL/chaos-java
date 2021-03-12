@@ -1,0 +1,10 @@
+server:
+  port: 6000
+spring:
+  application:
+    name: dubbo-demo-consumer
+
+dubbo:
+  protocol:
+    name: dubbo
+    port: 20880
