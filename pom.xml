@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.chaos</groupId>
+    <artifactId>chaos</artifactId>
+    <version>1.0.0</version>
+
+    <packaging>pom</packaging>
+
+    <properties>
+        <!-- for maven compiler plugin -->
+        <java_source_version>1.8</java_source_version>
+        <java_target_version>1.8</java_target_version>
+        <file_encoding>UTF-8</file_encoding>
+        <!-- Maven plugins -->
+        <maven_jar_version>3.2.0</maven_jar_version>
+        <maven_surefire_version>2.22.1</maven_surefire_version>
+        <maven_deploy_version>2.8.2</maven_deploy_version>
+        <maven_compiler_version>3.6.0</maven_compiler_version>
+        <maven_source_version>3.2.1</maven_source_version>
+        <maven_javadoc_version>3.0.1</maven_javadoc_version>
+        <project_version>1.0.0</project_version>
+    </properties>
+
+    <modules>
+        <module>chaos-netty</module>
+        <module>chaos-concurrent</module>
+        <module>chaos-leetcode</module>
+        <module>dubbo</module>
+        <module>dubbo-demo</module>
+        <module>cole</module>
+        <module>dubbo-spring-boot-starter</module>
+        <module>chaos-guava-samples</module>
+        <module>core-java</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.chaos.dubbo</groupId>
+                <artifactId>dubbo</artifactId>
+                <version>${project_version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven_compiler_version}</version>
+                <configuration>
+                    <source>${java_source_version}</source>
+                    <target>${java_target_version}</target>
+                    <encoding>${file_encoding}</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
