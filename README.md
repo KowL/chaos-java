@@ -1,2 +1,2 @@
-# chaos
-所学混沌，毕生合一
+# chaos-java
+java工具开发
