@@ -31,7 +31,6 @@
         <module>chaos-leetcode</module>
         <module>dubbo</module>
         <module>dubbo-demo</module>
-        <module>cole</module>
         <module>dubbo-spring-boot-starter</module>
         <module>chaos-guava-samples</module>
         <module>core-java</module>

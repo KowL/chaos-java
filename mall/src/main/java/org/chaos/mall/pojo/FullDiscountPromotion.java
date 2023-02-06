@@ -7,8 +7,7 @@ import java.util.List;
 /**
  * @ClassName: FullDiscountPromotion
  * @Description: 满件折促销POJO
- * @Company: 广州市两棵树网络科技有限公司
- * @Author: rick-li@msyc.cc
+ * @Author: lijun
  * @Date: 2021-01-22 14:49
  */
 @Data

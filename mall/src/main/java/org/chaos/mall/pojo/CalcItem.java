@@ -5,8 +5,7 @@ import lombok.Data;
 /**
  * @ClassName: PromItem
  * @Description: TODO
- * @Company: 广州市两棵树网络科技有限公司
- * @Author: rick-li@msyc.cc
+ * @Author: lijun
  * @Date: 2021-01-20 17:31
  */
 @Data

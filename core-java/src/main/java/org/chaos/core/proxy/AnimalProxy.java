@@ -7,8 +7,7 @@ import java.lang.reflect.Proxy;
 /**
  * @ClassName: AnimalProxy
  * @Description: TODO
- * @Company: 广州市两棵树网络科技有限公司
- * @Author: rick-li@msyc.cc
+ * @Author: lijun
  * @Date: 2021-03-05 16:51
  */
 public class AnimalProxy implements InvocationHandler {

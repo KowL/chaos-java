@@ -7,8 +7,7 @@ import java.time.LocalDateTime;
 /**
  * @ClassName: Coupon
  * @Description: TODO
- * @Company: 广州市两棵树网络科技有限公司
- * @Author: rick-li@msyc.cc
+ * @Author: lijun
  * @Date: 2021-01-20 17:04
  */
 @Data
