@@ -8,9 +8,7 @@ import java.util.List;
 
 /**
  * @ClassName: CalcAmountHandler
- * @Description: TODO
- * @Company: 广州市两棵树网络科技有限公司
- * @Author: rick-li@msyc.cc
+ * @Description: 促销金额计算工具
  * @Date: 2021-01-22 14:56
  */
 public class CalcAmountHandler {
